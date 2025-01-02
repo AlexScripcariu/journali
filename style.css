@@ -1,0 +1,152 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Inter', serif;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  background-color: #1C1C1C;
+  margin: 0;
+  padding-left: 4rem;
+}
+
+.nav {
+  font-size: 1.05rem;
+  display: flex;
+  gap: 10%;
+}
+
+.nav a {
+  background-color: #34A6E800;
+  transition: background-color 0.5s ease-out;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+}
+
+.nav a:hover {
+  background-color: #34A6E8A0;
+  transition: background-color 0.5s ease-out;
+} 
+
+.title {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+ 
+}
+
+.logo {
+  width: 4rem;
+  height: 2.5rem;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, #5AE66C, #378E43);
+  border-top-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.item {
+  background-color: #393836;
+  padding: 0.5rem;
+  border-radius: 0.3em;
+  /* border: 0.125rem solid black; */
+}
+
+.txt {
+  margin-left: 0.5rem;
+}
+
+.item-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: -0.2rem;
+  font-weight: 800;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 0.3em;
+}
+
+.item-desc {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.tags {
+  display: flex;
+  column-gap: 3%;
+  flex-wrap: wrap;
+  margin-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.tag {
+  padding: 0.3em 0.4em;
+  border-radius: 0.5em;
+  background-color: #5AE66B;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.data-science {
+  background-color: #E6CB5A;
+}
+
+.free {
+  background-color: #5AAEE6;
+}
+
+.fundamental {
+  background-color: #E6635A;
+}
+
+.main-site-container {
+  display: flex;
+
+}
+
+.side-bar {
+  flex-basis: 115rem;
+  padding-left: 1.5rem;
+}
+
+.faq-title {
+  margin-top: 2rem;
+  font-weight: 900;
+}
+
+.faq-q {
+  color: rgb(161, 161, 161);
+}
+
+
+.f2q {
+  opacity: 0.9;
+}
+
+.f3q {
+  opacity: 0.8;
+}
+
+.f4q {
+  opacity: 0.7;
+}
+
+.f5q {
+  opacity: .6;
+}
